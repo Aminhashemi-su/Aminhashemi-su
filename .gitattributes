@@ -1,0 +1,4 @@
+# Keep line endings identical between a Windows working copy and the Linux runner,
+# so the scheduled job never commits a whole-file CRLF/LF diff as a "change".
+* text=auto eol=lf
+*.svg text eol=lf

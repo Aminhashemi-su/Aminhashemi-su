@@ -1,0 +1,48 @@
+name: Refresh activity panel
+
+on:
+  schedule:
+    # 05:14 UTC daily — off the hour so it is not queued with everyone else's cron
+    - cron: '14 5 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/activity.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: activity
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Render assets/activity*.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: node scripts/build-activity.mjs
+
+      - name: Commit if the panel changed
+        run: |
+          git config user.name  'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if git diff --quiet -- assets; then
+            echo 'No change.'
+          else
+            git add assets
+            git commit -m 'chore: refresh activity panel'
+            git push
+          fi

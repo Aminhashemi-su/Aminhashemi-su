@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 148" width="1200" height="148" role="img" aria-label="Amin Hashemi — AI Engineer and Full-Stack Developer">
+  <rect width="1200" height="148" fill="#ffffff"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" fill="#787D84">
+    <text x="0" y="16" font-size="10" letter-spacing="1.6">PROFILE &#183; 2026</text>
+    <text x="1200" y="16" font-size="10" letter-spacing="1.6" text-anchor="end">STOCKHOLM / LINK&#214;PING &#183; SWEDEN</text>
+    <text x="1200" y="134" font-size="9" letter-spacing="1.4" text-anchor="end">FIG. 01</text>
+  </g>
+
+  <!-- measure -->
+  <g stroke="#D9D6CF" stroke-width="1" shape-rendering="crispEdges">
+    <line x1="0" y1="26.5" x2="1200" y2="26.5"/>
+    <line x1="0.5" y1="26" x2="0.5" y2="32"/>
+    <line x1="40.5" y1="26" x2="40.5" y2="32"/>
+    <line x1="80.5" y1="26" x2="80.5" y2="32"/>
+    <line x1="120.5" y1="26" x2="120.5" y2="30"/>
+  </g>
+
+  <!-- construction -->
+  <g stroke="#DFDCD5" stroke-width="1" fill="none">
+    <rect x="900.5" y="38.5" width="299" height="74"/>
+    <rect x="948.5" y="54.5" width="203" height="42"/>
+    <line x1="850" y1="76.5" x2="1200" y2="76.5"/>
+    <line x1="1050.5" y1="38" x2="1050.5" y2="112"/>
+  </g>
+  <rect x="1047" y="73" width="7" height="7" fill="#3F6070"/>
+
+  <text x="0" y="84" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="44" letter-spacing="-0.6" fill="#14161A">Amin Hashemi</text>
+
+  <rect x="0" y="100" width="36" height="2.5" fill="#3F6070"/>
+
+  <text x="0" y="126" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.8" fill="#5B6068">AI ENGINEER &#183; FULL-STACK DEVELOPER</text>
+</svg>
