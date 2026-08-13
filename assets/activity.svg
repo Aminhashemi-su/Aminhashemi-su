@@ -8,7 +8,7 @@
 </g>
 <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" fill="#787D84">
 <text x="0" y="16" font-size="10" letter-spacing="1.5">ACTIVITY / LAST 26 WEEKS</text>
-<text x="1200" y="16" font-size="10" letter-spacing="1.5" text-anchor="end">UPDATED 2026-08-12</text>
+<text x="1200" y="16" font-size="10" letter-spacing="1.5" text-anchor="end">UPDATED 2026-08-13</text>
 </g>
 <text x="0" y="104" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="46" letter-spacing="-1" fill="#14161A">727</text>
 <rect x="0" y="116" width="24" height="2" fill="#3F6070"/>
@@ -211,6 +211,7 @@
 <rect x="1182" y="108" width="18" height="18" fill="#EFECE6"/>
 <rect x="1182" y="130" width="18" height="18" fill="#C6D0D6"/>
 <rect x="1182" y="152" width="18" height="18" fill="#93AAB6"/>
+<rect x="1182" y="174" width="18" height="18" fill="#EFECE6"/>
 </g>
 <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" letter-spacing="1.1" fill="#787D84">
 <text x="632" y="262">LESS</text>
