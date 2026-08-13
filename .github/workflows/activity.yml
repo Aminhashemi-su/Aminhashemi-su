@@ -29,11 +29,11 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Render assets/activity*.svg
+      - name: Render assets
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USER: ${{ github.repository_owner }}
-        run: node scripts/build-activity.mjs
+        run: node scripts/build.mjs
 
       - name: Commit if the panel changed
         run: |

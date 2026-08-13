@@ -1,33 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 148" width="1200" height="148" role="img" aria-label="Amin Hashemi — AI Engineer and Full-Stack Developer">
-  <rect width="1200" height="148" fill="#0D1117"/>
-
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" fill="#7D858F">
-    <text x="0" y="16" font-size="10" letter-spacing="1.6">PROFILE &#183; 2026</text>
-    <text x="1200" y="16" font-size="10" letter-spacing="1.6" text-anchor="end">STOCKHOLM / LINK&#214;PING &#183; SWEDEN</text>
-    <text x="1200" y="134" font-size="9" letter-spacing="1.4" text-anchor="end">FIG. 01</text>
-  </g>
-
-  <!-- measure -->
-  <g stroke="#2A313B" stroke-width="1" shape-rendering="crispEdges">
-    <line x1="0" y1="26.5" x2="1200" y2="26.5"/>
-    <line x1="0.5" y1="26" x2="0.5" y2="32"/>
-    <line x1="40.5" y1="26" x2="40.5" y2="32"/>
-    <line x1="80.5" y1="26" x2="80.5" y2="32"/>
-    <line x1="120.5" y1="26" x2="120.5" y2="30"/>
-  </g>
-
-  <!-- construction -->
-  <g stroke="#242B34" stroke-width="1" fill="none">
-    <rect x="900.5" y="38.5" width="299" height="74"/>
-    <rect x="948.5" y="54.5" width="203" height="42"/>
-    <line x1="850" y1="76.5" x2="1200" y2="76.5"/>
-    <line x1="1050.5" y1="38" x2="1050.5" y2="112"/>
-  </g>
-  <rect x="1047" y="73" width="7" height="7" fill="#7FA3B3"/>
-
-  <text x="0" y="84" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="44" letter-spacing="-0.6" fill="#E8E6E1">Amin Hashemi</text>
-
-  <rect x="0" y="100" width="36" height="2.5" fill="#7FA3B3"/>
-
-  <text x="0" y="126" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.8" fill="#9199A3">AI ENGINEER &#183; FULL-STACK DEVELOPER</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 132" width="1200" height="132" role="img" aria-label="Amin Hashemi — AI ENGINEER · FULL-STACK DEVELOPER. STOCKHOLM / LINKÖPING · SWEDEN.">
+<rect width="1200" height="132" fill="#0D1117"/>
+<text x="0" y="14" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="1.6" fill="#7D858F">PROFILE / 2026</text>
+<text x="1200" y="14" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="1.6" fill="#7D858F" text-anchor="end">STOCKHOLM / LINKÖPING · SWEDEN</text>
+<g stroke="#2A313B" stroke-width="1" shape-rendering="crispEdges">
+<line x1="0" y1="24.5" x2="1200" y2="24.5"/>
+<line x1="0.5" y1="24" x2="0.5" y2="31"/>
+<line x1="40.5" y1="24" x2="40.5" y2="31"/>
+<line x1="80.5" y1="24" x2="80.5" y2="31"/>
+<line x1="120.5" y1="24" x2="120.5" y2="31"/>
+</g>
+<g stroke="#20262F" stroke-width="1" fill="none" shape-rendering="crispEdges">
+<rect x="992.5" y="40.5" width="207" height="52"/>
+<line x1="1044.5" y1="40" x2="1044.5" y2="92"/>
+<line x1="1096.5" y1="40" x2="1096.5" y2="92"/>
+<line x1="1147.5" y1="40" x2="1147.5" y2="92"/>
+<line x1="940" y1="66.5" x2="1199" y2="66.5"/>
+<line x1="992" y1="104.5" x2="1199" y2="104.5"/>
+<line x1="992.5" y1="101" x2="992.5" y2="108"/>
+<line x1="1198.5" y1="101" x2="1198.5" y2="108"/>
+</g>
+<g stroke="#2A313B" stroke-width="1" stroke-opacity="0.75" shape-rendering="crispEdges">
+<line x1="997.5" y1="43" x2="997.5" y2="63"/>
+<line x1="1002.5" y1="43" x2="1002.5" y2="63"/>
+<line x1="1007.5" y1="43" x2="1007.5" y2="63"/>
+<line x1="1012.5" y1="43" x2="1012.5" y2="63"/>
+<line x1="1017.5" y1="43" x2="1017.5" y2="63"/>
+<line x1="1022.5" y1="43" x2="1022.5" y2="63"/>
+<line x1="1027.5" y1="43" x2="1027.5" y2="63"/>
+<line x1="1032.5" y1="43" x2="1032.5" y2="63"/>
+<line x1="1037.5" y1="43" x2="1037.5" y2="63"/>
+</g>
+<rect x="1093" y="63" width="6" height="6" fill="#7FA3B3"/>
+<text x="0" y="78" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="44" letter-spacing="-0.6" fill="#E8E6E1">Amin Hashemi</text>
+<rect x="0" y="92" width="36" height="2.5" fill="#7FA3B3"/>
+<text x="0" y="116" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.8" fill="#7D858F">AI ENGINEER · FULL-STACK DEVELOPER</text>
+<text x="1200" y="128" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" letter-spacing="1.4" fill="#7D858F" text-anchor="end">FIG.01 / 207×52</text>
 </svg>

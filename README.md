@@ -2,58 +2,48 @@
   <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/header-mobile-dark.svg">
   <source media="(max-width: 600px)" srcset="assets/header-mobile.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header.svg" alt="Amin Hashemi — AI Engineer · Full-Stack Developer. Stockholm / Linköping, Sweden." width="100%">
+  <img src="assets/header.svg" alt="Amin Hashemi — AI Engineer, Full-Stack Developer. Stockholm / Linköping, Sweden." width="100%">
 </picture>
 
 [aminhashemi.com](https://aminhashemi.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/aminhashemi/) &nbsp;·&nbsp; [aminhashemi@live.com](mailto:aminhashemi@live.com)
 
-## Build · Ship · Explore
+###### FOCUS
 
-```
-BUILD                  SHIP                  EXPLORE
-AI-native products     Talero ATS            Multi-agent systems
-Developer tools        Talero Talents        RAG · retrieval
-Automation systems     Z17                   Edge infrastructure
-```
+AI product systems &nbsp;·&nbsp; Multi-agent workflows &nbsp;·&nbsp; Clean, extensible architecture &nbsp;·&nbsp; Edge infrastructure
 
-## Selected projects
+###### SELECTED WORK
 
-**Talero ATS** <sub>· live</sub><br>
-Applicant tracking and assessment that reads every candidate in full, so strong ones are not filtered out early.<br>
-`TypeScript · Node.js · Python · FastAPI · PostgreSQL · Claude`
+**Talero ATS**<br>
+AI-native applicant tracking and assessment platform.<br>
+<samp>Stack — TypeScript / FastAPI / PostgreSQL / Google Cloud</samp>
 
-**Talero Talents** <sub>· live</sub><br>
-Data visualisation that surfaces personality traits and shows users where their skills can improve.<br>
-`React · TypeScript · Supabase · PostgreSQL · Stripe`
+**Talero Talents**<br>
+Personality and skill analytics for career development.<br>
+<samp>Stack — React / TypeScript / Supabase / PostgreSQL</samp>
 
-**Z17** <sub>· live</sub><br>
-Clinic site migrated from Joomla to edge rendering.<br>
-`React · Vite · Cloudflare Workers`
+**Z17**<br>
+Clinic platform migrated from Joomla to edge rendering.<br>
+<samp>Stack — React / Vite / Cloudflare Workers / TanStack</samp>
 
-**Akademisk Kvart** <sub>· volunteer</sub><br>
-Student housing listings for Stockholm.<br>
-`React · TypeScript · AWS · Vercel`
+**Akademisk Kvart**<br>
+Student housing platform for Stockholm.<br>
+<samp>Stack — React / TypeScript / AWS / Vercel</samp>
 
 <sub>Most source is private. Case studies → [aminhashemi.com](https://aminhashemi.com)</sub>
 
-## Tools
+###### TOOLCHAIN
 
-```
-Languages       TypeScript · JavaScript · Python · PHP · SQL · HTML · CSS
-AI              Claude Code · OpenAI · Gemini · LangGraph · Qdrant
-Frontend        React · Next.js · Vite · Tailwind
-Backend         Node.js · FastAPI · PostgreSQL · Redis
-Infrastructure  Cloudflare · AWS · Google Cloud · Nginx · Docker
-Tooling         GitHub Actions · Cursor · Codex · n8n · Supabase · Git
-```
-
-## Activity
+<img src="assets/icons/ai.svg" width="16" height="16" alt=""> **AI** &nbsp; <samp>Claude Code / OpenAI / Gemini / LangGraph / Qdrant</samp><br>
+<img src="assets/icons/frontend.svg" width="16" height="16" alt=""> **Frontend** &nbsp; <samp>React / Next.js / TypeScript / Vite</samp><br>
+<img src="assets/icons/backend.svg" width="16" height="16" alt=""> **Backend** &nbsp; <samp>Node.js / FastAPI / Python / PostgreSQL</samp><br>
+<img src="assets/icons/infrastructure.svg" width="16" height="16" alt=""> **Infrastructure** &nbsp; <samp>Cloudflare / AWS / Google Cloud / Nginx / Docker</samp><br>
+<img src="assets/icons/tooling.svg" width="16" height="16" alt=""> **Tooling** &nbsp; <samp>Cursor / Codex / GitHub Actions / n8n / Supabase</samp>
 
 <picture>
   <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/activity-mobile-dark.svg">
   <source media="(max-width: 600px)" srcset="assets/activity-mobile.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
-  <img src="assets/activity.svg" alt="Contribution activity: yearly total, longest weekly streak, shipping cadence, and a 26-week calendar." width="100%">
+  <img src="assets/activity.svg" alt="Contribution activity over the last twelve months: commits, contributions, longest weekly streak, and a calendar." width="100%">
 </picture>
 
 <img src="assets/divider.svg" alt="" width="100%">

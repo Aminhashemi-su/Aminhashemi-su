@@ -1,6 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 16" width="1200" height="16" role="presentation">
-  <line x1="0" y1="8.5" x2="1200" y2="8.5" stroke="#8A8F98" stroke-opacity="0.32" stroke-width="1" shape-rendering="crispEdges"/>
-  <rect x="0" y="7" width="72" height="2" fill="#5C8496"/>
-  <line x1="72.5" y1="9" x2="72.5" y2="15" stroke="#8A8F98" stroke-opacity="0.4" stroke-width="1" shape-rendering="crispEdges"/>
-  <line x1="1199.5" y1="2" x2="1199.5" y2="9" stroke="#8A8F98" stroke-opacity="0.4" stroke-width="1" shape-rendering="crispEdges"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 14" width="1200" height="14" role="presentation">
+<g stroke="#8A8F98" stroke-opacity="0.32" stroke-width="1" shape-rendering="crispEdges">
+<line x1="0" y1="7.5" x2="1200" y2="7.5"/>
+<line x1="0.5" y1="7" x2="0.5" y2="12"/>
+<line x1="40.5" y1="7" x2="40.5" y2="12"/>
+<line x1="80.5" y1="7" x2="80.5" y2="12"/>
+<line x1="1199.5" y1="3" x2="1199.5" y2="8"/>
+</g>
+<rect x="0" y="6" width="64" height="2" fill="#5C8496"/>
 </svg>
