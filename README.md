@@ -43,12 +43,16 @@ Student housing platform for Stockholm.<br>
 <img src="assets/icons/infrastructure.svg" width="16" height="16" alt=""> **Infrastructure** &nbsp; <samp>Cloudflare / AWS / Google Cloud / NGINX / Docker</samp><br>
 <img src="assets/icons/tooling.svg" width="16" height="16" alt=""> **Tooling** &nbsp; <samp>Cursor / Codex / GitHub Actions / n8n / Supabase</samp>
 
+###### HOW THESE SYSTEMS ARE BUILT
+
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/activity-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="assets/activity-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
-  <img src="assets/activity.svg" alt="Contribution activity over the last twelve months: yearly total, contributions in the last 90 days, longest weekly streak, and a calendar." width="100%">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/system-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/system-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/system-dark.svg">
+  <img src="assets/system.svg" alt="System shape: ingest, policy, model, contract, state. One stochastic cell with deterministic contracts on both sides, and a replay path from state back to ingest. Applied in RoleLens, Talero ATS and Talero Talents." width="100%">
 </picture>
+
+<sub>The model is the only component allowed to be unpredictable. Everything around it — filtering, schema, retries, state — is deterministic and replayable, so a bad generation is a contained failure rather than a corrupt record.</sub>
 
 <img src="assets/divider.svg" alt="" width="100%">
 

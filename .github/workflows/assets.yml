@@ -1,25 +1,25 @@
-name: Refresh activity panel
+name: Rebuild assets
 
+# No schedule: nothing in assets/ depends on live data any more, so a nightly run
+# could only ever produce an identical file. This exists to keep the committed SVGs
+# in step with the renderers when those change.
 on:
-  schedule:
-    # 05:14 UTC daily — off the hour so it is not queued with everyone else's cron
-    - cron: '14 5 * * *'
   workflow_dispatch:
   push:
     branches: [main]
     paths:
       - 'scripts/**'
-      - '.github/workflows/activity.yml'
+      - '.github/workflows/assets.yml'
 
 permissions:
   contents: write
 
 concurrency:
-  group: activity
+  group: assets
   cancel-in-progress: true
 
 jobs:
-  refresh:
+  build:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -30,12 +30,9 @@ jobs:
           node-version: '20'
 
       - name: Render assets
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_USER: ${{ github.repository_owner }}
         run: node scripts/build.mjs
 
-      - name: Commit if the panel changed
+      - name: Commit if the output changed
         run: |
           git config user.name  'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
@@ -43,6 +40,6 @@ jobs:
             echo 'No change.'
           else
             git add assets
-            git commit -m 'chore: refresh activity panel'
+            git commit -m 'chore: rebuild assets'
             git push
           fi
