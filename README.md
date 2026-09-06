@@ -2,14 +2,12 @@
   <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/header-mobile-dark.svg">
   <source media="(max-width: 600px)" srcset="assets/header-mobile.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header.svg" alt="Amin Hashemi — AI Engineer, Full-Stack Developer. Stockholm / Linköping, Sweden." width="100%">
+  <img src="assets/header.svg" alt="Amin Hashemi — AI Engineer and Full-Stack Developer. Stockholm / Linköping, Sweden. Focus: AI product systems, multi-agent workflows, edge infrastructure. Available for new work." width="100%">
 </picture>
 
+I build AI product systems for hiring and career teams — agent workflows, retrieval, and the deterministic scaffolding that makes a language model safe to ship. Mostly TypeScript, Python and Postgres, on Cloudflare and Google Cloud.
+
 [aminhashemi.com](https://aminhashemi.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/aminhashemi/) &nbsp;·&nbsp; [aminhashemi@live.com](mailto:aminhashemi@live.com)
-
-###### FOCUS
-
-AI product systems &nbsp;·&nbsp; Multi-agent workflows &nbsp;·&nbsp; Clean, extensible architecture &nbsp;·&nbsp; Edge infrastructure
 
 ###### SELECTED WORK
 
@@ -43,17 +41,6 @@ Student housing platform for Stockholm.<br>
 <img src="assets/icons/infrastructure.svg" width="16" height="16" alt=""> **Infrastructure** &nbsp; <samp>Cloudflare / AWS / Google Cloud / NGINX / Docker</samp><br>
 <img src="assets/icons/tooling.svg" width="16" height="16" alt=""> **Tooling** &nbsp; <samp>Cursor / Codex / GitHub Actions / n8n / Supabase</samp>
 
-###### HOW THESE SYSTEMS ARE BUILT
-
-<picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/system-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="assets/system-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/system-dark.svg">
-  <img src="assets/system.svg" alt="System shape: ingest, policy, model, contract, state. One stochastic cell with deterministic contracts on both sides, and a replay path from state back to ingest. Applied in RoleLens, Talero ATS and Talero Talents." width="100%">
-</picture>
-
-<sub>The model is the only component allowed to be unpredictable. Everything around it — filtering, schema, retries, state — is deterministic and replayable, so a bad generation is a contained failure rather than a corrupt record.</sub>
-
 <img src="assets/divider.svg" alt="" width="100%">
 
-<sub>Stockholm / Linköping — available for AI engineering and product systems.</sub>
+<sub>Stockholm / Linköping — open to AI engineering and product systems work.</sub>

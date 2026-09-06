@@ -12,7 +12,6 @@ import { MODES } from './tokens.mjs';
 import { renderHeader } from './render-header.mjs';
 import { renderDivider } from './render-divider.mjs';
 import { ICON_NAMES, renderIcon } from './render-icons.mjs';
-import { renderSystem } from './render-system.mjs';
 
 const PROFILE = {
   name: 'Amin Hashemi',
@@ -20,7 +19,7 @@ const PROFILE = {
   eyebrow: 'PROFILE / 2026',
   location: 'STOCKHOLM / LINKÖPING · SWEDEN',
   locationShort: 'STOCKHOLM · SE',
-  primaryLanguages: 'TYPESCRIPT / PYTHON / SQL',
+  focus: ['AI PRODUCT SYSTEMS', 'MULTI-AGENT WORKFLOWS', 'EDGE INFRASTRUCTURE'],
 };
 
 // assets/ resolved from this file, so the script runs from any working directory
@@ -40,8 +39,6 @@ for (const mode of MODES) {
   const suffix = mode === 'dark' ? '-dark' : '';
   write(ASSETS, `header${suffix}.svg`, renderHeader(PROFILE, mode, 'wide'));
   write(ASSETS, `header-mobile${suffix}.svg`, renderHeader(PROFILE, mode, 'narrow'));
-  write(ASSETS, `system${suffix}.svg`, renderSystem(mode, 'wide'));
-  write(ASSETS, `system-mobile${suffix}.svg`, renderSystem(mode, 'narrow'));
 }
 
 write(ASSETS, 'divider.svg', renderDivider());
