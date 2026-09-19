@@ -2,45 +2,45 @@
   <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/header-mobile-dark.svg">
   <source media="(max-width: 600px)" srcset="assets/header-mobile.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header.svg" alt="Amin Hashemi — AI Engineer and Full-Stack Developer. Stockholm / Linköping, Sweden. Focus: AI product systems, multi-agent workflows, edge infrastructure. Available for new work." width="100%">
+  <img src="assets/header.svg" alt="Amin Hashemi, AI Engineer and Full-Stack Developer in Stockholm, Sweden. Open to full-time roles." width="100%">
 </picture>
 
-I build AI product systems for hiring and career teams — agent workflows, retrieval, and the deterministic scaffolding that makes a language model safe to ship. Mostly TypeScript, Python and Postgres, on Cloudflare and Google Cloud.
+I'm Amin Hashemi, an AI engineer and full-stack developer in Stockholm. I build AI products end to end, from the database and the AI pipeline to the interface people use. I also build the parts that let a company trust an AI feature with real data: EU data residency, audit logs, and a human who makes the final call.
 
-[aminhashemi.com](https://aminhashemi.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/aminhashemi/) &nbsp;·&nbsp; [aminhashemi@live.com](mailto:aminhashemi@live.com)
+**[Portfolio and case studies](https://aminhashemi.com)** &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/aminhashemi/) &nbsp;·&nbsp; [aminhashemi@live.com](mailto:aminhashemi@live.com)
 
-###### SELECTED WORK
+### Selected work
 
-**[RoleLens](https://github.com/Aminhashemi-su/RoleLens)** <sub>· MIT</sub><br>
-Semantic job discovery agent scoring role fit with an LLM behind a deterministic policy layer.<br>
-<samp>Stack — Python / Vertex AI Gemini / SQLite / Arbetsförmedlingen API</samp>
+**[RoleLens](https://github.com/Aminhashemi-su/RoleLens)** &nbsp;<sub>open source · MIT</sub><br>
+An agent that reads every new job ad in Sweden, ranks it against a profile and lets an LLM judge only the ads worth reading. Plain Python rules make the final decision, and 216 offline tests run in CI on Linux, macOS and Windows.<br>
+<sub>Python · SQLite · Gemini on Vertex AI · Azure OpenAI · [Case study](https://aminhashemi.com/projects/rolelens)</sub>
 
-**Talero ATS**<br>
-AI-native applicant tracking and assessment platform.<br>
-<samp>Stack — TypeScript / FastAPI / PostgreSQL / Google Cloud</samp>
+**[Talero ATS](https://aminhashemi.com/projects/talero-ats)**<br>
+An AI hiring platform that scores candidates, explains every score and keeps candidate data in the EU. I built the API, the AI pipeline, the frontend and the Google Cloud setup.<br>
+<sub>TypeScript · Node.js · Python · FastAPI · PostgreSQL + pgvector · Redis · Gemini on Vertex AI</sub>
 
-**Talero Talents**<br>
-Personality and skill analytics for career development.<br>
-<samp>Stack — React / TypeScript / Supabase / PostgreSQL</samp>
+**[Talero Talents](https://aminhashemi.com/projects/talero-talents-dashboard)**<br>
+Turns a candidate's behavioural-game results into a personal career report they can act on.<br>
+<sub>React · TypeScript · Supabase · Stripe</sub>
 
-**Z17**<br>
-Clinic platform migrated from Joomla to edge rendering.<br>
-<samp>Stack — React / Vite / Cloudflare Workers / TanStack Start</samp>
+**[Z17](https://aminhashemi.com/projects/z17)**<br>
+Moved a dental clinic's Joomla site to React on Cloudflare. Page load fell from 3.4 s to 1.4 s.<br>
+<sub>React · TanStack Start · Cloudflare Workers · Cloudflare R2</sub>
 
-**Akademisk Kvart**<br>
-Student housing platform for Stockholm.<br>
-<samp>Stack — React / TypeScript / AWS / Vercel</samp>
+**[Akademisk Kvart](https://aminhashemi.com/projects/akademisk-kvart)** &nbsp;<sub>volunteer</sub><br>
+Features for Stockholm's non-profit student housing platform, including automatic translation of listings.<br>
+<sub>React · TypeScript · Vercel · AWS</sub>
 
-<sub>RoleLens is open source. The rest ships from private repositories — case studies → [aminhashemi.com](https://aminhashemi.com)</sub>
+<sub>RoleLens is public. The other projects live in private repositories, and their case studies are on [aminhashemi.com](https://aminhashemi.com).</sub>
 
-###### TOOLCHAIN
+### Toolchain
 
-<img src="assets/icons/ai.svg" width="16" height="16" alt=""> **AI** &nbsp; <samp>Claude Code / OpenAI / Gemini / LangGraph / Qdrant</samp><br>
-<img src="assets/icons/frontend.svg" width="16" height="16" alt=""> **Frontend** &nbsp; <samp>React / Next.js / TypeScript / Vite</samp><br>
-<img src="assets/icons/backend.svg" width="16" height="16" alt=""> **Backend** &nbsp; <samp>Node.js / FastAPI / Python / PostgreSQL</samp><br>
-<img src="assets/icons/infrastructure.svg" width="16" height="16" alt=""> **Infrastructure** &nbsp; <samp>Cloudflare / AWS / Google Cloud / NGINX / Docker</samp><br>
-<img src="assets/icons/tooling.svg" width="16" height="16" alt=""> **Tooling** &nbsp; <samp>Cursor / Codex / GitHub Actions / n8n / Supabase</samp>
+<img src="assets/icons/ai.svg" width="16" height="16" alt=""> &nbsp;**AI** &nbsp; Gemini · OpenAI · Claude · RAG · embeddings · LLM evaluation · n8n<br>
+<img src="assets/icons/backend.svg" width="16" height="16" alt=""> &nbsp;**Backend** &nbsp; Python · FastAPI · Node.js · Express · PostgreSQL · pgvector · Redis<br>
+<img src="assets/icons/frontend.svg" width="16" height="16" alt=""> &nbsp;**Frontend** &nbsp; React · TypeScript · TanStack · Next.js · Tailwind CSS<br>
+<img src="assets/icons/infrastructure.svg" width="16" height="16" alt=""> &nbsp;**Cloud** &nbsp; Google Cloud · Cloudflare · AWS · Docker · GitHub Actions<br>
+<img src="assets/icons/tooling.svg" width="16" height="16" alt=""> &nbsp;**Tooling** &nbsp; Claude Code · Cursor · Codex · Git · Sentry
 
 <img src="assets/divider.svg" alt="" width="100%">
 
-<sub>Stockholm / Linköping — open to AI engineering and product systems work.</sub>
+<sub>Stockholm, Sweden · Long-term Swedish work permit, no visa sponsorship needed · MSc Strategic Information Systems Management, Stockholm University (2025–2027)</sub>

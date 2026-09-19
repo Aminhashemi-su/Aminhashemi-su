@@ -1,5 +1,6 @@
 // Section markers for the toolchain rows. 16px, single stroke, one neutral colour
-// that holds on both GitHub themes — so each icon is one file, not a light/dark pair.
+// that holds on both GitHub themes, so each icon is one file, not a light/dark pair.
+// Round caps and joins, like the lucide icons on aminhashemi.com.
 
 import { NEUTRAL_ACCENT, document } from './tokens.mjs';
 
@@ -45,7 +46,7 @@ export function renderIcon(name) {
     width: 16,
     height: 16,
     body: [
-      `<g fill="none" stroke="${NEUTRAL_ACCENT}" stroke-width="${STROKE}" stroke-linecap="square" stroke-linejoin="miter">`,
+      `<g fill="none" stroke="${NEUTRAL_ACCENT}" stroke-width="${STROKE}" stroke-linecap="round" stroke-linejoin="round">`,
       ...glyph,
       '</g>',
     ],
