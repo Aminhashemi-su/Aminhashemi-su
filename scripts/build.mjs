@@ -13,13 +13,15 @@ import { renderHeader } from './render-header.mjs';
 import { renderDivider } from './render-divider.mjs';
 import { ICON_NAMES, renderIcon } from './render-icons.mjs';
 
+// Same wording as the aminhashemi.com hero and link preview, so the three agree.
 const PROFILE = {
   name: 'Amin Hashemi',
-  role: 'AI ENGINEER · FULL-STACK DEVELOPER',
-  eyebrow: 'PROFILE / 2026',
-  location: 'STOCKHOLM / LINKÖPING · SWEDEN',
-  locationShort: 'STOCKHOLM · SE',
-  focus: ['AI PRODUCT SYSTEMS', 'MULTI-AGENT WORKFLOWS', 'EDGE INFRASTRUCTURE'],
+  role: 'AI Engineer & Full-Stack Developer',
+  location: 'Stockholm, Sweden',
+  status: 'Open to full-time roles · Stockholm, Sweden',
+  statusShort: 'Open to full-time roles · Stockholm',
+  proof: 'Built Talero ATS and the open-source RoleLens',
+  url: 'aminhashemi.com',
 };
 
 // assets/ resolved from this file, so the script runs from any working directory
