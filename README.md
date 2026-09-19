@@ -4,6 +4,7 @@
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
   <img src="assets/header.svg" alt="Amin Hashemi, AI Engineer and Full-Stack Developer in Stockholm, Sweden. Open to full-time roles." width="100%">
 </picture>
+<br><br>
 
 I'm Amin Hashemi, an AI engineer and full-stack developer in Stockholm. I build AI products end to end, from the database and the AI pipeline to the interface people use. I also build the parts that let a company trust an AI feature with real data: EU data residency, audit logs, and a human who makes the final call.
 
@@ -43,4 +44,4 @@ Features for Stockholm's non-profit student housing platform, including automati
 
 <img src="assets/divider.svg" alt="" width="100%">
 
-<sub>Stockholm, Sweden · Long-term Swedish work permit, no visa sponsorship needed · MSc Strategic Information Systems Management, Stockholm University (2025–2027)</sub>
+<sub>Stockholm, Sweden · Long-term Swedish work permit, no visa sponsorship needed<br>MSc Strategic Information Systems Management, Stockholm University, 2025 to 2027</sub>
