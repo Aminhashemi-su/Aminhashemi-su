@@ -54,11 +54,6 @@ export function fontFaces() {
     .join('\n');
 }
 
-/** A committed image as a data URI, for the same reason as the font. */
-export function dataUri(relativePath, mime) {
-  return `data:${mime};base64,${readFileSync(new URL(relativePath, import.meta.url)).toString('base64')}`;
-}
-
 // Escapes for attribute context as well as text, since output lands in both.
 export const esc = (value) =>
   String(value)
