@@ -29,7 +29,7 @@ Moved a dental clinic's Joomla site to React on Cloudflare. Page load fell from 
 <sub>React · TanStack Start · Cloudflare Workers · Cloudflare R2</sub>
 
 **[Akademisk Kvart](https://aminhashemi.com/projects/akademisk-kvart)** &nbsp;<sub>volunteer</sub><br>
-Features for Stockholm's non-profit student housing platform, including automatic translation of listings.<br>
+Features for Stockholm's non-profit student housing platform, including automatic translation of listings. The team was [thanked by name](https://www.akademiskkvart.se/en/news/new-news-feature) in the platform's March 2026 announcement.<br>
 <sub>React · TypeScript · Vercel · AWS</sub>
 
 <sub>RoleLens is public. The other projects live in private repositories, and their case studies are on [aminhashemi.com](https://aminhashemi.com).</sub>
