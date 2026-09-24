@@ -13,7 +13,7 @@ I'm Amin Hashemi, an AI engineer and full-stack developer in Stockholm. I build 
 ### Selected work
 
 **[RoleLens](https://github.com/Aminhashemi-su/RoleLens)** &nbsp;<sub>open source · MIT</sub><br>
-An agent that reads every new job ad in Sweden, ranks it against a profile and lets an LLM judge only the ads worth reading. Plain Python rules make the final decision, and 216 offline tests run in CI on Linux, macOS and Windows.<br>
+An agent that reads every new job ad in Sweden, ranks it against a profile and lets an LLM judge only the ads worth reading. In its first month, RoleLens and two companion scouts read about 37,000 job ads and opportunities, ran about 12,300 AI evaluations for around $11 of recorded AI spend, and sent me 685. Plain Python rules make the final decision, and 216 offline tests run in CI on Linux, macOS and Windows.<br>
 <sub>Python · SQLite · Gemini on Vertex AI · Azure OpenAI · [Case study](https://aminhashemi.com/projects/rolelens)</sub>
 
 **[Talero ATS](https://aminhashemi.com/projects/talero-ats)**<br>
