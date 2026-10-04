@@ -39,7 +39,7 @@ const STREAM = {
 };
 
 const TALERO_ATS = {
-  kicker: 'TALERO AI · SOLE ENGINEER',
+  kicker: 'TALERO AI · CO-FOUNDER',
   title: 'Talero ATS',
   summary:
     'An AI hiring platform that explains every score and keeps candidate data in the EU. Ranking people is high-risk AI under the EU AI Act, so the trust is designed in, not added.',
