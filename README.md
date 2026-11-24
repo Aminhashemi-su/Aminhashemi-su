@@ -3,7 +3,7 @@
     <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/hero-narrow-dark.svg">
     <source media="(max-width: 600px)" srcset="assets/hero-narrow.svg">
     <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-    <img src="assets/hero.svg" width="100%" alt="Amin Hashemi, AI Engineer and Full-Stack Developer in Stockholm, Sweden. Open to full-time roles, with the right to work in Sweden. Below, a stream of about 37,100 job ads flows into a lens; 685 pass through, the ones worth reading.">
+    <img src="assets/hero.svg" width="100%" alt="Amin Hashemi, AI Engineer with a business background, in Stockholm, Sweden, working on AI engineering, process optimization and digitalization. Below, a stream of about 133,000 job ads flows into a lens; about 1,900 pass through, the ones worth reading.">
   </picture>
 </a>
 
@@ -12,6 +12,8 @@
   <a href="https://www.linkedin.com/in/aminhashemi/">LinkedIn</a> &nbsp;·&nbsp;
   <a href="mailto:aminhashemi@live.com">aminhashemi@live.com</a>
 </p>
+
+<p align="center"><sub>Before software: nine years in IT administration and operations in Iran, Türkiye and Sweden, including a Microsoft Dynamics CRM rollout. Executive MBA.</sub></p>
 
 ### Two systems I built end to end
 
@@ -29,7 +31,7 @@
     <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/rolelens-narrow-dark.svg">
     <source media="(max-width: 600px)" srcset="assets/rolelens-narrow.svg">
     <source media="(prefers-color-scheme: dark)" srcset="assets/rolelens-dark.svg">
-    <img src="assets/rolelens.svg" width="100%" alt="RoleLens, an open-source job-discovery agent. Every new ad is ranked without AI, filtered by rules, read by a cheap first model, judged by Gemini with a strict JSON schema, and plain Python makes the final decision. About 37,100 ads read, 12,300 AI evaluations and 685 sent in four weeks, counting two companion scouts.">
+    <img src="assets/rolelens.svg" width="100%" alt="RoleLens, an open-source job-discovery agent. Every new ad is ranked without AI and filtered by rules, GPT-6 Luna on Azure OpenAI judges what is left with a strict JSON schema, with Claude Haiku and Gemini on Vertex AI as backups, a second read checks every would-be match, and plain Python makes the final decision. About 133,000 ads read, 85,000 AI evaluations and 1,900 sent in under three months, counting two companion scouts.">
   </picture>
 </a>
 
@@ -39,7 +41,7 @@
   <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/numbers-narrow-dark.svg">
   <source media="(max-width: 600px)" srcset="assets/numbers-narrow.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/numbers-dark.svg">
-  <img src="assets/numbers.svg" width="100%" alt="300+ CVs processed by Talero ATS in four languages. 1,000+ players of Talero's career game. 216 offline tests in RoleLens. 0.93 ranking accuracy for Gemini against 0.78 for GPT-5 mini. 45 seconds to restore a stuck container after a 31-minute outage. 6 to 10 seconds per request with the smallest EU Gemini model, against 35 to 94 seconds for the larger ones.">
+  <img src="assets/numbers.svg" width="100%" alt="300+ CVs processed by Talero ATS in four languages. 1,000+ players of Talero's career game. 410 offline tests in RoleLens. 0.93 ranking accuracy for Gemini against 0.78 for GPT-5 mini. 45 seconds to restore a stuck container after a 31-minute outage. 6 to 10 seconds per request with the smallest EU Gemini model, against 35 to 94 seconds for the larger ones.">
 </picture>
 
 ### Things that broke, and what I changed
@@ -91,10 +93,8 @@ The model is the easy part. These are the moments that decided how I build.
 
 ### Right now
 
-- Looking for a **full-time role in Sweden** as an AI engineer or full-stack developer. Available immediately.
 - **MSc Strategic Information Systems Management** at Stockholm University, graduating June 2027.
-- Learning Swedish: **A2** today, **B1** exam in December 2026.
 
 <img src="assets/divider.svg" alt="" width="100%">
 
-<sub>Stockholm, Sweden · Right to work in Sweden, no visa sponsorship needed · <a href="mailto:aminhashemi@live.com">aminhashemi@live.com</a><br>Every image on this page is drawn by <a href="scripts/build.mjs">scripts/build.mjs</a> from one file of facts. No stats widgets, no trackers, and things only move where data moves.</sub>
+<sub>Stockholm, Sweden · <a href="mailto:aminhashemi@live.com">aminhashemi@live.com</a><br>Every image on this page is drawn by <a href="scripts/build.mjs">scripts/build.mjs</a> from one file of facts. No stats widgets, no trackers, and things only move where data moves.</sub>

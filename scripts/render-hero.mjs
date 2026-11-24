@@ -9,7 +9,7 @@
 //
 // No portrait: GitHub shows the avatar immediately to the left of this image.
 
-import { document, fontFaces, frame, n, pickLayout, rng, text, theme, wrap } from './tokens.mjs';
+import { document, fontFaces, frame, measure, n, pickLayout, rng, text, theme, wrap } from './tokens.mjs';
 
 const LAYOUTS = {
   wide: {
@@ -57,7 +57,12 @@ export function renderHero(profile, stream, mode = 'light', layout = 'wide') {
   const t = theme(mode);
   const L = pickLayout(LAYOUTS, layout);
   const R = rng(20260927);
-  const { band: B, lens, out: O } = L;
+  const { band: B, lens } = L;
+  // Where the dots land. When the count sits on the same row, stop short of its
+  // first digit, so a longer number never runs into the landing dot.
+  const sameRow = Math.abs(L.count.y - L.out.y) < L.count.size;
+  const countLeft = L.count.x - measure(stream.sent, L.count.size, { weight: 700 });
+  const O = { x: sameRow ? Math.min(L.out.x, n(countLeft - 26)) : L.out.x, y: L.out.y };
   const body = [
     '<defs>',
     `<pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.1" fill="${t.line}"/></pattern>`,

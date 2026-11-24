@@ -21,21 +21,21 @@ import { renderDivider } from './render-divider.mjs';
 // Same wording as the aminhashemi.com hero, so the two agree.
 const PROFILE = {
   name: 'Amin Hashemi',
-  role: 'AI Engineer & Full-Stack Developer',
+  role: 'AI Engineer with a business background',
   location: 'Stockholm, Sweden',
-  status: 'Open to full-time roles · Stockholm · Right to work in Sweden',
-  statusShort: 'Open to full-time roles · Stockholm',
-  intro: 'I build AI products end to end, and the parts that let a company trust them with real data.',
+  status: 'AI engineering · Process optimization · Digitalization · Stockholm',
+  statusShort: 'AI engineering · Digitalization · Stockholm',
+  intro: 'I build AI products and work with the people who will use them.',
   url: 'aminhashemi.com',
 };
 
-// RoleLens and its two companion scouts, 29 Aug – 24 Sep 2026
+// RoleLens and its two companion scouts, 29 Aug – 22 Nov 2026
 const STREAM = {
   lensLabel: 'rank · rules · AI judge',
-  sent: '685',
-  sentLabel: 'sent to me, under 2% of all read',
-  read: '~37,100 job ads and opportunities read',
-  source: 'RoleLens + two companion scouts · 29 Aug – 24 Sep 2026',
+  sent: '1,900',
+  sentLabel: 'sent to me, about 1 in 70 of all read',
+  read: '~133,000 job ads and opportunities read',
+  source: 'RoleLens + two companion scouts · 29 Aug – 22 Nov 2026',
 };
 
 const TALERO_ATS = {
@@ -72,14 +72,14 @@ const ROLELENS = {
   title: 'RoleLens',
   summary:
     'Reads every new job ad in Sweden and sends me the few worth applying to. Cheap ranking and rules come first, an AI judges only what is left, and plain Python decides.',
-  badges: [{ label: 'v2.0' }, { label: '216 offline tests', tone: 'ok' }],
+  badges: [{ label: 'v2.0' }, { label: '410 offline tests', tone: 'ok' }],
   nodes: [
-    { title: 'Every new ad', notes: [{ text: 'Platsbanken plus eight career-site platforms' }, { text: '~37,100 in 4 weeks', tone: 'accent' }] },
-    { title: 'Rank, no AI', notes: [{ text: 'Role vocabulary, embeddings and skill data, fused. The top 15% kept 101 of 102 good matches' }] },
+    { title: 'Every new ad', notes: [{ text: 'Platsbanken plus eight career-site platforms' }, { text: '~133,000 in under 3 months', tone: 'accent' }] },
+    { title: 'Rank, no AI', notes: [{ text: 'Role vocabulary, embeddings and skill data, fused. The top 45% goes on, plus a random 10% so ranking mistakes stay visible' }] },
     { title: 'Rule checks', notes: [{ text: 'Clear mismatches out before a model sees them, like mandatory fluent Swedish' }] },
-    { title: 'Cheap first read', notes: [{ text: 'Settles ~75% of ads. Cost per ad from $0.0037 to $0.0010' }] },
-    { title: 'AI judge', notes: [{ text: 'Gemini with a strict JSON schema; GPT-5 mini only if Vertex AI cannot answer' }, { text: '~12,300 evaluations', tone: 'accent' }] },
-    { title: 'Python decides', tone: 'accent', notes: [{ text: 'Near the line? Judged twice, decided on the average' }, { text: '685 sent to Telegram', tone: 'accent' }] },
+    { title: 'AI judge', notes: [{ text: 'GPT-6 Luna on Azure OpenAI with a strict JSON schema. Claude Haiku if Azure cannot answer; Gemini on Vertex AI as backup' }, { text: '~85,000 evaluations', tone: 'accent' }] },
+    { title: 'Second read', notes: [{ text: 'Luna at high reasoning re-reads each would-be match and near miss, one at a time' }] },
+    { title: 'Python decides', tone: 'accent', notes: [{ text: 'Near the line? Judged twice, decided on the average' }, { text: '~1,900 sent to Telegram', tone: 'accent' }] },
   ],
   // most ads drop out early; very few reach the end
   packets: [
@@ -99,7 +99,7 @@ const ROLELENS = {
     { stop: 1, kind: 'drop', phase: 0.92 },
   ],
   footer:
-    'Python 3.11 · SQLite · Vertex AI · CI on Linux, macOS and Windows · ~$0.0012 per AI evaluation · counts include two companion scouts, 29 Aug – 24 Sep 2026',
+    'Python 3.11 · SQLite · Azure OpenAI · Anthropic · Vertex AI · CI on Linux, macOS and Windows · counts include two companion scouts, 29 Aug – 22 Nov 2026',
   cta: 'Open the repository ›',
 };
 
@@ -115,7 +115,7 @@ const DESKWIDGETS = {
 const NUMBERS = [
   { big: '300+', label: 'CVs processed by Talero ATS, in four languages', viz: { type: 'dots', count: 30, caption: 'one dot = 10 CVs' } },
   { big: '1,000+', label: "players of Talero's career-assessment game", viz: { type: 'dots', count: 100, caption: 'one dot = 10 players' } },
-  { big: '216', label: 'offline tests in RoleLens, no network or API key', viz: { type: 'chips', labels: ['Linux', 'macOS', 'Windows'] } },
+  { big: '410', label: 'offline tests in RoleLens, no network or API key', viz: { type: 'chips', labels: ['Linux', 'macOS', 'Windows'] } },
   {
     big: '0.93',
     label: 'ranking accuracy for Gemini in the public RoleLens benchmark',
