@@ -105,7 +105,7 @@ const ROLELENS = {
 
 // A small public side project, drawn as one more project card
 const DESKWIDGETS = {
-  kicker: 'PUBLIC REPO · WINDOWS 11',
+  kicker: 'OPEN SOURCE · MIT · WINDOWS 11',
   name: 'DeskWidgets',
   desc: 'My Outlook calendar and Microsoft To Do on the Windows 11 desktop, in plain Python so it runs under Smart App Control.',
   viz: { type: 'worlds', labels: ['Outlook', 'To Do', 'Desktop'], stat: 'Under 20 MB · 0% CPU idle' },

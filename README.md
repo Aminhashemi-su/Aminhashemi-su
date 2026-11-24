@@ -72,7 +72,7 @@ The model is the easy part. These are the moments that decided how I build.
     <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/deskwidgets-narrow-dark.svg">
     <source media="(max-width: 600px)" srcset="assets/deskwidgets-narrow.svg">
     <source media="(prefers-color-scheme: dark)" srcset="assets/deskwidgets-dark.svg">
-    <img src="assets/deskwidgets.svg" width="100%" alt="DeskWidgets, a public repository: my Outlook calendar and Microsoft To Do on the Windows 11 desktop, in plain Python so it runs under Smart App Control. Under 20 MB of memory and 0% CPU when idle.">
+    <img src="assets/deskwidgets.svg" width="100%" alt="DeskWidgets, open source under the MIT license: my Outlook calendar and Microsoft To Do on the Windows 11 desktop, in plain Python so it runs under Smart App Control. Under 20 MB of memory and 0% CPU when idle.">
   </picture>
 </a>
 
