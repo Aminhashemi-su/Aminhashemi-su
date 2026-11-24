@@ -103,6 +103,15 @@ const ROLELENS = {
   cta: 'Open the repository ›',
 };
 
+// A small public side project, drawn as one more project card
+const DESKWIDGETS = {
+  kicker: 'PUBLIC REPO · WINDOWS 11',
+  name: 'DeskWidgets',
+  desc: 'My Outlook calendar and Microsoft To Do on the Windows 11 desktop, in plain Python so it runs under Smart App Control.',
+  viz: { type: 'worlds', labels: ['Outlook', 'To Do', 'Desktop'], stat: 'Under 20 MB · 0% CPU idle' },
+  stack: 'Python · tkinter · ctypes · Microsoft Graph',
+};
+
 const NUMBERS = [
   { big: '300+', label: 'CVs processed by Talero ATS, in four languages', viz: { type: 'dots', count: 30, caption: 'one dot = 10 CVs' } },
   { big: '1,000+', label: "players of Talero's career-assessment game", viz: { type: 'dots', count: 100, caption: 'one dot = 10 players' } },
@@ -191,6 +200,7 @@ const PANELS = {
   hero: (mode, layout) => renderHero(PROFILE, STREAM, mode, layout),
   'talero-ats': (mode, layout) => renderSystem(TALERO_ATS, mode, layout),
   rolelens: (mode, layout) => renderSystem(ROLELENS, mode, layout),
+  deskwidgets: (mode, layout) => renderProjects([DESKWIDGETS], mode, layout),
   numbers: (mode, layout) => renderNumbers(NUMBERS, mode, layout),
   projects: (mode, layout) => renderProjects(PROJECTS, mode, layout),
   stack: (mode, layout) => renderStack(STACK, mode, layout),

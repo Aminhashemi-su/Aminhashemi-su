@@ -67,8 +67,16 @@ The model is the easy part. These are the moments that decided how I build.
     <img src="assets/projects.svg" width="100%" alt="Talero Talents, a career report dashboard. Talero Wise, a career game with 1,000+ players, where I own the backend and sign-in. An advisor dashboard for Talero's first paying university partner, 200+ students. Z17, a dental clinic site moved to React on Cloudflare, page load from 3.4 to 1.0 seconds. Akademisk Kvart, Stockholm's student-housing platform with about 5,000 users. Pro-Cars, a car-workshop site rebuilt twice.">
   </picture>
 </a>
+<a href="https://github.com/Aminhashemi-su/deskwidgets">
+  <picture>
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/deskwidgets-narrow-dark.svg">
+    <source media="(max-width: 600px)" srcset="assets/deskwidgets-narrow.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/deskwidgets-dark.svg">
+    <img src="assets/deskwidgets.svg" width="100%" alt="DeskWidgets, a public repository: my Outlook calendar and Microsoft To Do on the Windows 11 desktop, in plain Python so it runs under Smart App Control. Under 20 MB of memory and 0% CPU when idle.">
+  </picture>
+</a>
 
-<sub>Case studies: <a href="https://aminhashemi.com/projects/talero-talents-dashboard">Talero Talents</a> · <a href="https://aminhashemi.com/projects/z17">Z17</a> · <a href="https://aminhashemi.com/projects/akademisk-kvart">Akademisk Kvart</a> · <a href="https://aminhashemi.com/projects/pro-cars">Pro-Cars</a> · <a href="https://aminhashemi.com/projects/nibela">Nibela</a> · <a href="https://aminhashemi.com/projects/talero-ai">Talero AI</a>. RoleLens is public; the other code lives in private repositories.</sub>
+<sub>Case studies: <a href="https://aminhashemi.com/projects/talero-talents-dashboard">Talero Talents</a> · <a href="https://aminhashemi.com/projects/z17">Z17</a> · <a href="https://aminhashemi.com/projects/akademisk-kvart">Akademisk Kvart</a> · <a href="https://aminhashemi.com/projects/pro-cars">Pro-Cars</a> · <a href="https://aminhashemi.com/projects/nibela">Nibela</a> · <a href="https://aminhashemi.com/projects/talero-ai">Talero AI</a>. RoleLens and DeskWidgets are public; the other code lives in private repositories.</sub>
 
 ### The stack, layer by layer
 
